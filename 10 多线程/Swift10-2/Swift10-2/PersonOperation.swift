@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PersonOperation: NSOperation {
+class PersonOperation: Operation {
     
     override func main() {
         for index in 0...100 {

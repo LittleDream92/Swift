@@ -14,20 +14,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     var imgView: UIImageView?
 
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
         //手动构建UI
-        window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        window?.backgroundColor = UIColor.yellowColor()
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.backgroundColor = UIColor.yellow
         window?.makeKeyAndVisible()
         
         let vc = ViewController()
-        vc.view.backgroundColor = UIColor.clearColor()
+        vc.view.backgroundColor = UIColor.clear
         window?.rootViewController = vc
         
         imgView = UIImageView(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
-        imgView?.backgroundColor = UIColor.redColor()
+        imgView?.backgroundColor = UIColor.red
         window?.addSubview(imgView!)
         
         
@@ -35,9 +35,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //使用 NSOperation 和 NSOperationQueue
         
         //    初始化一个操作/队列或者线程池
-        let queue: NSOperationQueue = NSOperationQueue()
+        let queue: OperationQueue = OperationQueue()
         //往队列中添加一个操作
-        queue.addOperationWithBlock { () -> Void in
+        queue.addOperation { () -> Void in
             self.run()
         }
         
@@ -63,17 +63,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        }
         
         autoreleasepool { () -> () in
-            let url = NSURL(string: "http://c.hiphotos.baidu.com/image/pic/item/7aec54e736d12f2ecbd3956e4dc2d562843568ed.jpg")
-            let data = NSData(contentsOfURL: url!)
+            let url = URL(string: "http://c.hiphotos.baidu.com/image/pic/item/7aec54e736d12f2ecbd3956e4dc2d562843568ed.jpg")
+            let data = try? Data(contentsOf: url!)
             
-            dispatch_async(dispatch_get_main_queue()) { () -> Void in
+            DispatchQueue.main.async { () -> Void in
                 //UI操作回到主线程
-                imgView?.image = UIImage(data: data!)
+                self.imgView?.image = UIImage(data: data!)
             }
             
             //多线程中使用定时器
-            NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: "test", userInfo: nil, repeats: true)
-            NSRunLoop.currentRunLoop().run()
+            Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(AppDelegate.test), userInfo: nil, repeats: true)
+            RunLoop.current.run()
         }
         
         
@@ -85,25 +85,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     
-    func applicationWillResignActive(application: UIApplication) {
+    func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
     }
 
-    func applicationDidEnterBackground(application: UIApplication) {
+    func applicationDidEnterBackground(_ application: UIApplication) {
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
     }
 
-    func applicationWillEnterForeground(application: UIApplication) {
+    func applicationWillEnterForeground(_ application: UIApplication) {
         // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
     }
 
-    func applicationDidBecomeActive(application: UIApplication) {
+    func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
     }
 
-    func applicationWillTerminate(application: UIApplication) {
+    func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
