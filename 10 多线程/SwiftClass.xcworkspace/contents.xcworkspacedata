@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Swift10-7/Swift10-7.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Swift10-6/Swift10-6.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Swift10-5/Swift10-5.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Swift10-4/Swift10-4.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Swift10-3/Swift10-3.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Swift10-2/Swift10-2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Swift10-1/Swift10-1.xcodeproj">
+   </FileRef>
+</Workspace>

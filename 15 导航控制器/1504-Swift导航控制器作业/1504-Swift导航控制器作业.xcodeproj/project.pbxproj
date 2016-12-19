@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8BB82DF1E07CCC9001EA136 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BB82DE1E07CCC9001EA136 /* AppDelegate.swift */; };
+		A8BB82E61E07CCC9001EA136 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BB82E51E07CCC9001EA136 /* Assets.xcassets */; };
+		A8BB82E91E07CCC9001EA136 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8BB82E71E07CCC9001EA136 /* LaunchScreen.storyboard */; };
+		A8BB83011E07CD07001EA136 /* 20120618100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8BB82F11E07CD07001EA136 /* 20120618100.jpg */; };
+		A8BB83021E07CD07001EA136 /* 20120618101.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8BB82F21E07CD07001EA136 /* 20120618101.jpg */; };
+		A8BB83031E07CD07001EA136 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = A8BB82F31E07CD07001EA136 /* back.png */; };
+		A8BB83041E07CD07001EA136 /* back_on.png in Resources */ = {isa = PBXBuildFile; fileRef = A8BB82F41E07CD07001EA136 /* back_on.png */; };
+		A8BB83051E07CD07001EA136 /* bj.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8BB82F51E07CD07001EA136 /* bj.jpg */; };
+		A8BB83061E07CD07001EA136 /* btn_search.png in Resources */ = {isa = PBXBuildFile; fileRef = A8BB82F61E07CD07001EA136 /* btn_search.png */; };
+		A8BB83071E07CD07001EA136 /* btnbg_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = A8BB82F71E07CD07001EA136 /* btnbg_blue.png */; };
+		A8BB83081E07CD07001EA136 /* ico_jian.png in Resources */ = {isa = PBXBuildFile; fileRef = A8BB82F81E07CD07001EA136 /* ico_jian.png */; };
+		A8BB83091E07CD07001EA136 /* navbar_bg_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = A8BB82F91E07CD07001EA136 /* navbar_bg_normal.png */; };
+		A8BB830A1E07CD07001EA136 /* write.png in Resources */ = {isa = PBXBuildFile; fileRef = A8BB82FA1E07CD07001EA136 /* write.png */; };
+		A8BB830B1E07CD07001EA136 /* write_on.png in Resources */ = {isa = PBXBuildFile; fileRef = A8BB82FB1E07CD07001EA136 /* write_on.png */; };
+		A8BB830C1E07CD07001EA136 /* 刷新.png in Resources */ = {isa = PBXBuildFile; fileRef = A8BB82FC1E07CD07001EA136 /* 刷新.png */; };
+		A8BB830D1E07CD07001EA136 /* 刷新选中.png in Resources */ = {isa = PBXBuildFile; fileRef = A8BB82FD1E07CD07001EA136 /* 刷新选中.png */; };
+		A8BB830E1E07CD07001EA136 /* 登陆.png in Resources */ = {isa = PBXBuildFile; fileRef = A8BB82FE1E07CD07001EA136 /* 登陆.png */; };
+		A8BB830F1E07CD07001EA136 /* 登陆_h.png in Resources */ = {isa = PBXBuildFile; fileRef = A8BB82FF1E07CD07001EA136 /* 登陆_h.png */; };
+		A8BB83101E07CD07001EA136 /* 返回图标.png in Resources */ = {isa = PBXBuildFile; fileRef = A8BB83001E07CD07001EA136 /* 返回图标.png */; };
+		A8BB83121E07CDB3001EA136 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BB83111E07CDB3001EA136 /* MainViewController.swift */; };
+		A8BB83141E07CF2C001EA136 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BB83131E07CF2C001EA136 /* Common.swift */; };
+		A8BB83181E07D4CF001EA136 /* SendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BB83151E07D4CF001EA136 /* SendViewController.swift */; };
+		A8BB83191E07D4CF001EA136 /* ImageViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BB83161E07D4CF001EA136 /* ImageViewViewController.swift */; };
+		A8BB831A1E07D4CF001EA136 /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BB83171E07D4CF001EA136 /* ImageDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A8BB82DB1E07CCC9001EA136 /* 1504-Swift导航控制器作业.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1504-Swift导航控制器作业.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8BB82DE1E07CCC9001EA136 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8BB82E51E07CCC9001EA136 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8BB82E81E07CCC9001EA136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8BB82EA1E07CCC9001EA136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8BB82F11E07CD07001EA136 /* 20120618100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20120618100.jpg; sourceTree = "<group>"; };
+		A8BB82F21E07CD07001EA136 /* 20120618101.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20120618101.jpg; sourceTree = "<group>"; };
+		A8BB82F31E07CD07001EA136 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		A8BB82F41E07CD07001EA136 /* back_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_on.png; sourceTree = "<group>"; };
+		A8BB82F51E07CD07001EA136 /* bj.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bj.jpg; sourceTree = "<group>"; };
+		A8BB82F61E07CD07001EA136 /* btn_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_search.png; sourceTree = "<group>"; };
+		A8BB82F71E07CD07001EA136 /* btnbg_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnbg_blue.png; sourceTree = "<group>"; };
+		A8BB82F81E07CD07001EA136 /* ico_jian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_jian.png; sourceTree = "<group>"; };
+		A8BB82F91E07CD07001EA136 /* navbar_bg_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar_bg_normal.png; sourceTree = "<group>"; };
+		A8BB82FA1E07CD07001EA136 /* write.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = write.png; sourceTree = "<group>"; };
+		A8BB82FB1E07CD07001EA136 /* write_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = write_on.png; sourceTree = "<group>"; };
+		A8BB82FC1E07CD07001EA136 /* 刷新.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "刷新.png"; sourceTree = "<group>"; };
+		A8BB82FD1E07CD07001EA136 /* 刷新选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "刷新选中.png"; sourceTree = "<group>"; };
+		A8BB82FE1E07CD07001EA136 /* 登陆.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登陆.png"; sourceTree = "<group>"; };
+		A8BB82FF1E07CD07001EA136 /* 登陆_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登陆_h.png"; sourceTree = "<group>"; };
+		A8BB83001E07CD07001EA136 /* 返回图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回图标.png"; sourceTree = "<group>"; };
+		A8BB83111E07CDB3001EA136 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A8BB83131E07CF2C001EA136 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		A8BB83151E07D4CF001EA136 /* SendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendViewController.swift; sourceTree = "<group>"; };
+		A8BB83161E07D4CF001EA136 /* ImageViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewViewController.swift; sourceTree = "<group>"; };
+		A8BB83171E07D4CF001EA136 /* ImageDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8BB82D81E07CCC9001EA136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8BB82D21E07CCC9001EA136 = {
+			isa = PBXGroup;
+			children = (
+				A8BB82DD1E07CCC9001EA136 /* 1504-Swift导航控制器作业 */,
+				A8BB82DC1E07CCC9001EA136 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8BB82DC1E07CCC9001EA136 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8BB82DB1E07CCC9001EA136 /* 1504-Swift导航控制器作业.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8BB82DD1E07CCC9001EA136 /* 1504-Swift导航控制器作业 */ = {
+			isa = PBXGroup;
+			children = (
+				A8BB82F01E07CD07001EA136 /* 作业图片素材 */,
+				A8BB83131E07CF2C001EA136 /* Common.swift */,
+				A8BB82DE1E07CCC9001EA136 /* AppDelegate.swift */,
+				A8BB83111E07CDB3001EA136 /* MainViewController.swift */,
+				A8BB83151E07D4CF001EA136 /* SendViewController.swift */,
+				A8BB83161E07D4CF001EA136 /* ImageViewViewController.swift */,
+				A8BB83171E07D4CF001EA136 /* ImageDetailViewController.swift */,
+				A8BB82E51E07CCC9001EA136 /* Assets.xcassets */,
+				A8BB82E71E07CCC9001EA136 /* LaunchScreen.storyboard */,
+				A8BB82EA1E07CCC9001EA136 /* Info.plist */,
+			);
+			path = "1504-Swift导航控制器作业";
+			sourceTree = "<group>";
+		};
+		A8BB82F01E07CD07001EA136 /* 作业图片素材 */ = {
+			isa = PBXGroup;
+			children = (
+				A8BB82F11E07CD07001EA136 /* 20120618100.jpg */,
+				A8BB82F21E07CD07001EA136 /* 20120618101.jpg */,
+				A8BB82F31E07CD07001EA136 /* back.png */,
+				A8BB82F41E07CD07001EA136 /* back_on.png */,
+				A8BB82F51E07CD07001EA136 /* bj.jpg */,
+				A8BB82F61E07CD07001EA136 /* btn_search.png */,
+				A8BB82F71E07CD07001EA136 /* btnbg_blue.png */,
+				A8BB82F81E07CD07001EA136 /* ico_jian.png */,
+				A8BB82F91E07CD07001EA136 /* navbar_bg_normal.png */,
+				A8BB82FA1E07CD07001EA136 /* write.png */,
+				A8BB82FB1E07CD07001EA136 /* write_on.png */,
+				A8BB82FC1E07CD07001EA136 /* 刷新.png */,
+				A8BB82FD1E07CD07001EA136 /* 刷新选中.png */,
+				A8BB82FE1E07CD07001EA136 /* 登陆.png */,
+				A8BB82FF1E07CD07001EA136 /* 登陆_h.png */,
+				A8BB83001E07CD07001EA136 /* 返回图标.png */,
+			);
+			path = "作业图片素材";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8BB82DA1E07CCC9001EA136 /* 1504-Swift导航控制器作业 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8BB82ED1E07CCC9001EA136 /* Build configuration list for PBXNativeTarget "1504-Swift导航控制器作业" */;
+			buildPhases = (
+				A8BB82D71E07CCC9001EA136 /* Sources */,
+				A8BB82D81E07CCC9001EA136 /* Frameworks */,
+				A8BB82D91E07CCC9001EA136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1504-Swift导航控制器作业";
+			productName = "1504-Swift导航控制器作业";
+			productReference = A8BB82DB1E07CCC9001EA136 /* 1504-Swift导航控制器作业.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8BB82D31E07CCC9001EA136 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Meng Fan";
+				TargetAttributes = {
+					A8BB82DA1E07CCC9001EA136 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A8BB82D61E07CCC9001EA136 /* Build configuration list for PBXProject "1504-Swift导航控制器作业" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8BB82D21E07CCC9001EA136;
+			productRefGroup = A8BB82DC1E07CCC9001EA136 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8BB82DA1E07CCC9001EA136 /* 1504-Swift导航控制器作业 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8BB82D91E07CCC9001EA136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BB830C1E07CD07001EA136 /* 刷新.png in Resources */,
+				A8BB83021E07CD07001EA136 /* 20120618101.jpg in Resources */,
+				A8BB83041E07CD07001EA136 /* back_on.png in Resources */,
+				A8BB83071E07CD07001EA136 /* btnbg_blue.png in Resources */,
+				A8BB83101E07CD07001EA136 /* 返回图标.png in Resources */,
+				A8BB830B1E07CD07001EA136 /* write_on.png in Resources */,
+				A8BB83061E07CD07001EA136 /* btn_search.png in Resources */,
+				A8BB83091E07CD07001EA136 /* navbar_bg_normal.png in Resources */,
+				A8BB83051E07CD07001EA136 /* bj.jpg in Resources */,
+				A8BB83031E07CD07001EA136 /* back.png in Resources */,
+				A8BB830F1E07CD07001EA136 /* 登陆_h.png in Resources */,
+				A8BB830A1E07CD07001EA136 /* write.png in Resources */,
+				A8BB830E1E07CD07001EA136 /* 登陆.png in Resources */,
+				A8BB83011E07CD07001EA136 /* 20120618100.jpg in Resources */,
+				A8BB830D1E07CD07001EA136 /* 刷新选中.png in Resources */,
+				A8BB82E91E07CCC9001EA136 /* LaunchScreen.storyboard in Resources */,
+				A8BB82E61E07CCC9001EA136 /* Assets.xcassets in Resources */,
+				A8BB83081E07CD07001EA136 /* ico_jian.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8BB82D71E07CCC9001EA136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BB83181E07D4CF001EA136 /* SendViewController.swift in Sources */,
+				A8BB831A1E07D4CF001EA136 /* ImageDetailViewController.swift in Sources */,
+				A8BB82DF1E07CCC9001EA136 /* AppDelegate.swift in Sources */,
+				A8BB83191E07D4CF001EA136 /* ImageViewViewController.swift in Sources */,
+				A8BB83141E07CF2C001EA136 /* Common.swift in Sources */,
+				A8BB83121E07CDB3001EA136 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8BB82E71E07CCC9001EA136 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8BB82E81E07CCC9001EA136 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8BB82EB1E07CCC9001EA136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8BB82EC1E07CCC9001EA136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8BB82EE1E07CCC9001EA136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "1504-Swift导航控制器作业/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dk.-504-Swift-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A8BB82EF1E07CCC9001EA136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "1504-Swift导航控制器作业/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dk.-504-Swift-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8BB82D61E07CCC9001EA136 /* Build configuration list for PBXProject "1504-Swift导航控制器作业" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BB82EB1E07CCC9001EA136 /* Debug */,
+				A8BB82EC1E07CCC9001EA136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8BB82ED1E07CCC9001EA136 /* Build configuration list for PBXNativeTarget "1504-Swift导航控制器作业" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BB82EE1E07CCC9001EA136 /* Debug */,
+				A8BB82EF1E07CCC9001EA136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8BB82D31E07CCC9001EA136 /* Project object */;
+}
