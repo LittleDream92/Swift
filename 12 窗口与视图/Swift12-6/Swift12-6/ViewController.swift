@@ -16,17 +16,17 @@ class ViewController: UIViewController {
         /**************************UIView动画**************************/
         let view = UIView(frame: CGRect(x: 80, y: 50, width: 100, height: 100))
         view.tag = 2015
-        view.backgroundColor = UIColor.greenColor()
+        view.backgroundColor = UIColor.green
         self.view.addSubview(view)
         
-        let btn = UIButton(type: UIButtonType.ContactAdd)
-        btn.addTarget(self, action: "btnClick:", forControlEvents: UIControlEvents.TouchUpInside)
+        let btn = UIButton(type: UIButtonType.contactAdd)
+        btn.addTarget(self, action: #selector(ViewController.btnClick(_:)), for: UIControlEvents.touchUpInside)
         btn.frame = CGRect(x: 50, y: 400, width: 100, height: 40)
         self.view.addSubview(btn)
         
     }
     
-    func btnClick(btn: UIButton) {
+    func btnClick(_ btn: UIButton) {
         let view: UIView = self.view.viewWithTag(2015)!
         
         //开始动画
@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         UIView.setAnimationDelegate(self)
         
         //设置动画的加速方式 EaseInOut: 开始和结束的时候速度稍慢
-        UIView.setAnimationCurve(UIViewAnimationCurve.EaseInOut)
+        UIView.setAnimationCurve(UIViewAnimationCurve.easeInOut)
         //设置动画重复的次数
         UIView.setAnimationRepeatCount(2)
         
@@ -64,7 +64,7 @@ class ViewController: UIViewController {
 //        view.backgroundColor = UIColor.redColor();
         
         //tarnsform改变
-        view.transform = CGAffineTransformRotate(view.transform, CGFloat(M_PI / 8))
+        view.transform = view.transform.rotated(by: CGFloat(M_PI / 8))
 
         //提交动画
         UIView.commitAnimations()
@@ -83,11 +83,11 @@ class ViewController: UIViewController {
     }
     
 
-    func animationWillStart(animationID: String, context: UnsafeMutablePointer<Void>) {
+    func animationWillStart(_ animationID: String, context: UnsafeMutableRawPointer) {
         print(animationID, context) //("animation1", 0x0000000000000000)
     }
     
-    func animationDidStop(animationID: String, finished flag: Bool, context: UnsafeMutablePointer<Void>) {
+    func animationDidStop(_ animationID: String, finished flag: Bool, context: UnsafeMutableRawPointer) {
         print(animationID, context)
     }
 

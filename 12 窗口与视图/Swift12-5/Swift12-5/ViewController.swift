@@ -16,26 +16,26 @@ class ViewController: UIViewController {
         /*************************UIView的Transform使用***********************/
         let view = UIView(frame: CGRect(x: 80, y: 50, width: 200, height: 200))
         view.tag = 100
-        view.backgroundColor = UIColor.redColor()
+        view.backgroundColor = UIColor.red
         self.view.addSubview(view)
         
         let label = UILabel(frame: CGRect(x: 0, y: 0, width: 100, height: 20))
         label.text = "hehe"
         view.addSubview(label)
         
-        let btn = UIButton(type: UIButtonType.InfoDark)
-        btn.addTarget(self, action: "btnClick:", forControlEvents: UIControlEvents.TouchUpInside)
+        let btn = UIButton(type: UIButtonType.infoDark)
+        btn.addTarget(self, action: #selector(ViewController.btnClick(_:)), for: UIControlEvents.touchUpInside)
         btn.frame = CGRect(x: 100, y: 300, width: 100, height: 100)
         self.view.addSubview(btn)
         
-        let btn2 = UIButton(type: UIButtonType.DetailDisclosure)
-        btn2.addTarget(self, action: "btn2Click:", forControlEvents: UIControlEvents.TouchUpInside)
+        let btn2 = UIButton(type: UIButtonType.detailDisclosure)
+        btn2.addTarget(self, action: #selector(ViewController.btn2Click(_:)), for: UIControlEvents.touchUpInside)
         btn2.frame = CGRect(x: 300, y: 300, width: 100, height: 100)
         self.view.addSubview(btn2)
         
     }
     
-    func btnClick(btn: UIButton) {
+    func btnClick(_ btn: UIButton) {
         
         let view: UIView = self.view.viewWithTag(100)!
         
@@ -48,16 +48,16 @@ class ViewController: UIViewController {
         //在原来的基础上进行旋转,角度为正表示顺时针旋转
 //        view.transform = CGAffineTransformRotate(t, CGFloat(M_PI / 4));
         //平移
-        view.transform = CGAffineTransformTranslate(t, -10, -10);
+        view.transform = t.translatedBy(x: -10, y: -10);
 
         
     }
     
-    func btn2Click(btn: UIButton) {
+    func btn2Click(_ btn: UIButton) {
         //还原
         let view: UIView = self.view.viewWithTag(100)!
         //还原为初始的transform
-        view.transform = CGAffineTransformIdentity;
+        view.transform = CGAffineTransform.identity;
     }
 
     override func didReceiveMemoryWarning() {

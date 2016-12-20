@@ -17,25 +17,25 @@ class ViewController: UIViewController {
         let view1 = UIView(frame: CGRect(x: 10, y: 50, width: 300, height: 300))
         view1.tag = 100
         //背景颜色
-        view1.backgroundColor = UIColor.redColor()
+        view1.backgroundColor = UIColor.red
         self.view.addSubview(view1)
         let view2 = UIView(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
-        view2.backgroundColor = UIColor.orangeColor()
+        view2.backgroundColor = UIColor.orange
         view1.addSubview(view2)
         
-        let btn = UIButton(type: UIButtonType.ContactAdd)
+        let btn = UIButton(type: UIButtonType.contactAdd)
         btn.frame = CGRect(x: 100, y: 400, width: 100, height: 50)
-        btn.addTarget(self, action: "change:", forControlEvents: UIControlEvents.TouchUpInside)
+        btn.addTarget(self, action: #selector(ViewController.change(_:)), for: UIControlEvents.touchUpInside)
         self.view.addSubview(btn)
         
     }
     
-    func change(btn: UIButton) {
+    func change(_ btn: UIButton) {
         //从btn的父视图（self.view）上根据tag值拿到view1
         let view1 = btn.superview?.viewWithTag(100)
         
         //改变view1的透明度
-        view1?.backgroundColor = UIColor.greenColor()
+        view1?.backgroundColor = UIColor.green
         view1?.alpha = 0.2
 //        view1?.hidden = true
 

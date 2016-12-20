@@ -38,9 +38,9 @@ class ViewController: UIViewController {
 //                }
                 
                 if (row + colum) % 2 == 0 {
-                    itemView.backgroundColor = UIColor.redColor()
+                    itemView.backgroundColor = UIColor.red
                 }else {
-                    itemView.backgroundColor = UIColor.blackColor()
+                    itemView.backgroundColor = UIColor.black
                 }
             }
         }
